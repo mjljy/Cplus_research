@@ -1,0 +1,43 @@
+# 新增配置  
+.vs/
+x64/
+.idea/
+Debug
+*.log
+# 新增
+x64
+
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+#*.dll    #new
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+#*.lib   #new
+
+# Executables
+*.exe
+*.out
+*.app
+Cplus_research.vcxproj.user
