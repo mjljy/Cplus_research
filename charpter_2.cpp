@@ -9,7 +9,7 @@ int main2_1(void) {
 	return 0;
 }
 
-int main2()
+int main()
 {
 	int a = 3;
 	int b = 4;
