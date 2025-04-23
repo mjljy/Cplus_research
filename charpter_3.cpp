@@ -1,8 +1,8 @@
-#include <iostream>
+﻿#include <iostream>
 #include <limits>
 using namespace std;
 
-int main_3() 
+int main() 
 {   // 变量
 	int a;
 	int a_a_;
@@ -26,12 +26,22 @@ int main_3()
 	cout  << endl;
 
 	cout << "Maximum   values:" << endl;
-	cout << "int:" << n_int <<  endl;
-	cout << "short:" << n_short << endl;
-	cout << "long:" << n_long << endl;
-	cout << "long long:" << n_llong << endl;
+	cout << "INT_MAX :" << n_int <<  endl;
+	cout << "SHRT_MAX:" << n_short << endl;
+	cout << "LONG_MAX:" << n_long << endl;
+	cout << "LLONG_MAX:" << n_llong << endl;
 
-	cout << "Maximum int   value = " <<  INT_MIN << endl;
+	cout << "INT_MIN  value = " <<  INT_MIN << endl;
+	cout << "SHRT_MIN  value = " << SHRT_MIN << endl;
+	cout << "LONG_MIN  value = " << LONG_MIN << endl;
+	cout << "LLONG_MIN  value = " << LLONG_MIN << endl;
+
+	int zz;
+	int zz1(234);
+
+	cout << "zz1  = " << zz1 << endl;
+	//cout << "zz没有初始化  = " << zz << endl;
+
 	cout << "Bits per byte  = " << CHAR_BIT << endl;
 
 	cout << "int_1 = " << int_1 << endl;
@@ -47,6 +57,28 @@ int main_3()
 	cout << "int_1 hex  " << int_1 << endl;
 	cout << oct;
 	cout << "int_1 oct  " << int_1 << endl;
+	cout << "无符号-------------------溢出的研究" << endl;
+
+	cout << "无符号 最大值 " << USHRT_MAX <<endl;
+	unsigned int x1 = USHRT_MAX;
+	cout << "USHRT_MAX =          " << USHRT_MAX << endl;
+	cout << "unsigned x1 =          " << x1 << endl;
+	cout << "无符号 最大值 + 1 " << x1+1  << endl;
+	unsigned int x2 = 0;
+	cout << "unsigned x2 =          " << x2 << endl;
+	cout << "无符号      0 - 1 " << x2 - 1 << endl;
+	cout << "-------------------溢出的研究" << endl;
+
+	cout << "有符号-------------------溢出的研究" << endl;
+	short int x11 = SHRT_MAX;
+	cout << "SHRT_MAX =          " << SHRT_MAX << endl;
+	cout << "short int x11 =          " << x11 << endl;
+	cout << "有符号 short 最大值 + 1 " << x11 + 1 << endl;
+	short int x12 = SHRT_MIN;
+	cout << "SHRT_MIN =          " << SHRT_MIN << endl;
+	cout << "int     x12 =          " << x12 << endl;
+	cout << "有符号 short 最小值- 1 " << x12 - 1 << endl;
+	cout << "-------------------溢出的研究" << endl;
 
 	return 0;
 

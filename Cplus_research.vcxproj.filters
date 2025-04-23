@@ -13,17 +13,8 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="C++Primer_Plus_6">
-      <UniqueIdentifier>{442fed61-e26f-4c23-8cde-e94a7be24fa3}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="charpter_2.cpp">
-      <Filter>C++Primer_Plus_6</Filter>
-    </ClCompile>
-    <ClCompile Include="charpter_10_opp_2.cpp">
-      <Filter>C++Primer_Plus_6</Filter>
-    </ClCompile>
     <ClCompile Include="charpter_10_opp_3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -51,14 +42,18 @@
     <ClCompile Include="charpter_0_1_head_1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="charpter_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_10_opp_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include=".gitignore">
-      <Filter>C++Primer_Plus_6</Filter>
-    </None>
     <None Include="ctp\error.dtd" />
     <None Include="ctp\thostmduserapi_se.dll" />
     <None Include="ctp\thosttraderapi_se.dll" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="ctp\error.xml" />

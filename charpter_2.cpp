@@ -5,11 +5,11 @@ int main2_3(int x, int y) {
 	return x + y;
 }
 int main2_1(void) {
-	printf("Hellow World!\n");
+	printf(" Hellow World!\n");
 	return 0;
 }
 
-int main()
+int main2()
 {
 	int a = 3;
 	int b = 4;
