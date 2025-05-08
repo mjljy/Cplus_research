@@ -1,69 +1,63 @@
 ﻿#include <iostream>
 #include <limits>
+#include <typeinfo>
 using namespace std;
 
-int main() 
+int main31()
 {   // 变量
-	int a;
-	int a_a_;
-	int a_a_1;
-	cout << "size of " << sizeof(int) << endl;
 
-	int n_int = INT_MAX;
-	short n_short = SHRT_MAX;
-	long n_long = LONG_MAX;
-	long long n_llong = LLONG_MAX;
+/* 
+1. 先看各个类型的占用字节数
+2. 再看看各个类型的最大最小数值
+3. 各个类型有哪些 
+int    有符号和无符号 
+short
+long
+long long
+
+*/
+	cout << "----------------------------- :" << endl;
+	cout << "int  of " << sizeof(int) << " bytes" << endl;
+	cout << "unsigned int  of " << sizeof(unsigned int) << " bytes" << endl;
+	cout << "----------------------------- :" << endl;
+	cout << "short int  of " << sizeof(short int) << " bytes" << endl;
+	cout << "unsigned shortint  of " << sizeof(unsigned short int) << " bytes" << endl;
+	cout << "----------------------------- :" << endl;
+	cout << "long int  of " << sizeof(long int) << " bytes" << endl;
+	cout << "unsigned long int  of " << sizeof(unsigned long int) << " bytes" << endl;
+	cout << "----------------------------- :" << endl;
+	cout << "long long int  of " << sizeof(long long int) << " bytes" << endl;
+	cout << "long unsigned long int  of " << sizeof(unsigned long long int) << " bytes" << endl;
+	cout << "----------------------------- :" << endl;
 
 
-	int int_1 = 42;
-	int int_2 = 07;
-	int int_3 = 0xA;
+	cout << "SHRT_MIN  = " << SHRT_MIN << endl;
+	cout << "SHRT_MAX  = " << SHRT_MAX << endl;
+	cout << "USHRT_MAX  = " << USHRT_MAX << endl;
+	cout << "----------------------------- :" << endl;
+	cout << "INT_MIN  = " << INT_MIN << endl;
+	cout << "INT_MAX  = " << INT_MAX << endl;
+	cout << "UINT_MAX  = " << UINT_MAX << endl;
+	cout << "----------------------------- :" << endl;
+	cout << "LONG_MIN  = " << LONG_MIN << endl;
+	cout << "LONG_MAX  = " << LONG_MAX << endl;
+	cout << "ULONG_MAX  = " << ULONG_MAX << endl;
+	cout << "----------------------------- :" << endl;
 
-	cout << "int  of " << sizeof(int) << " bytes" <<  endl;
-	cout << "short  of " << sizeof(int) << " bytes" << endl;
-	cout << "long  of " << sizeof(int) << " bytes" << endl;
-	cout << "long long   of " << sizeof(int) << " bytes" << endl;
-	cout  << endl;
 
-	cout << "Maximum   values:" << endl;
-	cout << "INT_MAX :" << n_int <<  endl;
-	cout << "SHRT_MAX:" << n_short << endl;
-	cout << "LONG_MAX:" << n_long << endl;
-	cout << "LLONG_MAX:" << n_llong << endl;
 
-	cout << "INT_MIN  value = " <<  INT_MIN << endl;
-	cout << "SHRT_MIN  value = " << SHRT_MIN << endl;
-	cout << "LONG_MIN  value = " << LONG_MIN << endl;
-	cout << "LLONG_MIN  value = " << LLONG_MIN << endl;
-
-	int zz;
-	int zz1(234);
-
-	cout << "zz1  = " << zz1 << endl;
-	//cout << "zz没有初始化  = " << zz << endl;
-
-	cout << "Bits per byte  = " << CHAR_BIT << endl;
-
-	cout << "int_1 = " << int_1 << endl;
-	cout << "int_2 = " << int_2 << endl;
-	cout << "int_3 = " << int_3 << endl;
-	cout << "-------------------" << endl;
-	cout << "int_1 = " << int_1 << endl;
 	// 修改 cout 显示整数的的方式
 	// dec  十进制
 	// 
 	// 修改 cout 显示整数的的方式
-	cout << hex;
-	cout << "int_1 hex  " << int_1 << endl;
-	cout << oct;
-	cout << "int_1 oct  " << int_1 << endl;
+
 	cout << "无符号-------------------溢出的研究" << endl;
 
-	cout << "无符号 最大值 " << USHRT_MAX <<endl;
+	cout << "无符号 最大值 " << USHRT_MAX << endl;
 	unsigned int x1 = USHRT_MAX;
 	cout << "USHRT_MAX =          " << USHRT_MAX << endl;
 	cout << "unsigned x1 =          " << x1 << endl;
-	cout << "无符号 最大值 + 1 " << x1+1  << endl;
+	cout << "无符号 最大值 + 1 " << x1 + 1 << endl;
 	unsigned int x2 = 0;
 	cout << "unsigned x2 =          " << x2 << endl;
 	cout << "无符号      0 - 1 " << x2 - 1 << endl;
@@ -81,6 +75,123 @@ int main()
 	cout << "-------------------溢出的研究" << endl;
 
 	return 0;
+
+
+}
+int main32()
+{   // 变量
+
+
+
+	cout << "无符号-------------------溢出的研究" << endl;
+
+	cout << "无符号 最大值 " << USHRT_MAX << endl;
+	unsigned short int x1 = USHRT_MAX;
+	cout << "USHRT_MAX =          " << USHRT_MAX << endl;
+	cout << "unsigned x1 =          " << x1 << endl;
+	x1 = x1 + 1;
+	cout << "无符号 最大值 + 1 " << x1 << endl;
+	unsigned short int x2 = 0;
+	cout << "unsigned x2 =          " << x2 << endl;
+	x2 = x2 - 1;
+	cout << "无符号      0 - 1 " << x2 << endl;
+	cout << "-------------------溢出的研究" << endl;
+
+	cout << "有符号-------------------溢出的研究" << endl;
+	short int x11 = SHRT_MAX;
+	cout << "SHRT_MAX =          " << SHRT_MAX << endl;
+	cout << "short int x11 =          " << x11 << endl;
+	x11 = x11 + 1;
+	cout << "有符号 short 最大值 + 1 " << x11 << endl;
+	cout << "SHRT_MIN =          " << SHRT_MIN << endl;
+	short int x12 = SHRT_MIN;
+	cout << "int     x12 =          " << x12 << endl;
+	x12 = x12 - 1;
+	cout << "有符号 short 最小值- 1 " << x12 << endl;
+	cout << "-------------------溢出的研究" << endl;
+
+	return 0;
+
+
+}
+int main33()
+{   // 变量
+	cout << "整型的展示" << endl;
+	int a = 10000;
+	cout << dec;
+	cout << "a = " << a << endl;
+	cout << oct;
+	cout << "a = " << a << endl;
+	cout << hex;
+	cout << "a = " << a << endl;
+	return 0;
+
+
+}
+int main34()
+{   // 变量
+	cout << "----------------------------- :" << endl;
+	cout << "char  of " << sizeof(char) << " bytes" << endl;
+	cout << "----------------------------- :" << endl;
+	char ch;
+	cout << "Enter a character:" << endl;
+	cin >> ch;
+	cout << "Hola" << endl;
+	cout << "Thank you or the  " << ch << "   character. " << endl;
+	return 0;
+}
+int main35()
+{   // 变量
+	char ch = 'M';
+	int i = ch;
+	cout << "The ASCII code for   " << ch << "   is  " << i << endl;
+
+	cout << "Add one to the character code: " << endl;
+	ch = ch + 1;
+	i = ch;
+	cout << "The ASCII code for   " << ch << "   is  " << i << endl;
+	cout << "Displaying  chra ch using cout.put(ch): " ;
+	cout.put(ch);
+	cout.put('!');
+
+	char i1 = ch;
+	int i3 = i1;
+	cout << "i3   cout " << i3 << endl;
+	cout << "i1   cout "<< i1 << endl;
+	i1 = i1 + 70; 
+	cout << "i1   cout " << i1 << endl;
+	int i2 = i1;
+	cout << "The ASCII code for   " << i1 << "   is  " << i2 << endl;
+	return 0;
+}
+int main() {
+	cout << "*  <<<<<" << '*' << endl;
+	//cout.put('*');
+	//cout << "\a"  << endl;
+	cout << "------------------------" << endl;
+	int k\u00F6rper;
+	cout << "Let them eat g\u00E2teau.\n";
+	cout << "------------------------" << endl;
+	signed char i = 70;
+	int x = i;
+	cout << "The ASCII code for   " << x << "   is  " << i << endl;
+	signed char i1 = 78;
+	int x1 = i1;
+	cout << "The ASCII code for   " << x1 << "   is  " << i1 << endl;
+	i1 = i1 + 70;
+	x1 = x1 + 70;
+	cout << "The ASCII code for   " << x1 << "   is  " << i1 << endl;
+	cout << "------------------------" << endl;
+	char i2 = 'M';
+	int x2 = i2;
+	cout << "The ASCII code for   " << x2 << "   is  " << i2 << endl;
+	i2 = i2 + 70;
+	x2 = x2 + 70;
+	cout << "The ASCII code for   " << x2 << "   is  " << i2 << endl;
+	cout << "Type of a: " << typeid(i2).name() << endl;
+
+
+
 
 
 }
