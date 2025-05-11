@@ -164,7 +164,7 @@ int main35()
 	cout << "The ASCII code for   " << i1 << "   is  " << i2 << endl;
 	return 0;
 }
-int main() {
+int main36() {
 	cout << "*  <<<<<" << '*' << endl;
 	//cout.put('*');
 	//cout << "\a"  << endl;
@@ -203,8 +203,45 @@ int main() {
 	
 	cout << "Type of a: " << typeid(i2).name() << endl;
 
+	return 0;
+}
+
+int main37()
+{
+	wchar_t bob = L'p';
+	wcout << " wchar_tbob = " << bob << endl;
+
+	char16_t ch1 = u'q';
+	char32_t ch2 = U'\U0000222B';
+
+	cout << "char16_t ch1   " << ch1 << endl;
+	cout << "char32_t ch2   " << ch2 << endl;
+
+	return 0;
+}
+
+int main()
+{
+	// float long 
+	float x = 1.111;
+	long y = 1.1111;
+	float z = 7.3e10;
+
+	cout << "x  " << x << endl;
+	cout << "y  " << y << endl;
+	cout << "z  " << z << endl;
+	cout << "------------------------------------------------" << endl;
+	cout.setf(ios_base::fixed, ios_base::floatfield);
+	float tub = 10.0 / 3.0;
+	double mint = 10.0 / 3.0;
+	const float million = 1.0e6;
+	cout << "tub = " << tub << endl;
+	cout << "a million tubs  = " << million << endl;
+
+	cout << "a million tubs * 10  = " << million * 10 * million << endl;
+	cout << "mint = " << mint << endl;
+	cout << "million * mint = " << million * mint << endl;
 
 
-
-
+	return 0;
 }
