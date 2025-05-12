@@ -137,9 +137,10 @@
     <ClCompile Include="charpter_3_1_char.cpp" />
     <ClCompile Include="charpter_3_2_char.cpp" />
     <ClCompile Include="charpter_3_3_float.cpp" />
-    <ClCompile Include="charpter_3_4.cpp" />
     <ClCompile Include="charpter_0_1_head.cpp" />
     <ClCompile Include="charpter_0_1_head_1.cpp" />
+    <ClCompile Include="charpter_4.cpp" />
+    <ClCompile Include="charpter_4_1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

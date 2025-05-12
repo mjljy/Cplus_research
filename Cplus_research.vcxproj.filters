@@ -33,9 +33,6 @@
     <ClCompile Include="charpter_3_3_float.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="charpter_3_4.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="charpter_0_1_head.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -46,6 +43,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="charpter_10_opp_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_4_1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
