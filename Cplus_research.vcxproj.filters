@@ -45,10 +45,13 @@
     <ClCompile Include="charpter_10_opp_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="charpter_4.cpp">
+    <ClCompile Include="charpter_4_fuheleixing.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="charpter_4_1.cpp">
+    <ClCompile Include="charpter_4_1_shuzu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_4_2_zifuchuan.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

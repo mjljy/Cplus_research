@@ -5,7 +5,7 @@ using namespace std;
 สýื้
 */
 
-int main()
+int main41()
 {
 
 	int yams[3];
@@ -26,6 +26,7 @@ int main()
 	short things1[4] { 1,3,4,8 };
 	short things2[] { 1,3,4,8 };
 	cout << "things1 " << things1 << endl;
+
 
 
 	return 0;
