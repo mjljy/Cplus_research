@@ -1,5 +1,6 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
+//int main()
 int main()
 {
 	cout << "xxxx  "  "yyyyyy\n";
@@ -7,7 +8,7 @@ int main()
 	cout << "xxxx      "
 		"yyyyyy\n";
 
-	// ÉÏÊö±íÊ¾¶¼ÊÇOKµÄ
+	// ä¸Šè¿°è¡¨ç¤ºéƒ½æ˜¯OKçš„
 
 
 	const int Size = 15;
@@ -25,7 +26,7 @@ int main()
 	cout << "Here are the first 3 characters of my name:";
 	cout << name2 << endl;
 
-	cout << "-------------------------------" << endl;
+	cout << "------------------------------- lonely use  cin " << endl;
 
 
 	const int Arsize = 20;
@@ -33,15 +34,52 @@ int main()
 	char dessert[Arsize];
 
 	cout << " Enter your name:\n";
-	//cin >> name;
-	cin.getline(name, 20);
+	cin >> name;
 	cout << "Enter your favorite dessert:\n";
 
-	//cin >> dessert;
+	cin >> dessert;
 	cin.getline(dessert, 20);
 
 	cout << "I have " << dessert;
 	cout << "for you " << name << "\n";
+
+	cout << "------------------------------- lonely use  getline " << endl;
+
+	char name10[Arsize];
+	char dessert10[Arsize];
+
+
+	cout << " Enter your name:\n";
+	cin.getline(name10, 20);
+	cout << "Enter your favorite dessert:\n";
+
+	cin.getline(dessert10, 20);
+
+	cout << "I have " << dessert10;
+	cout << "for you " << name10 << "\n";
+
+
+	cout << "------------------------------- first cin then getline " << endl;
+
+	char name11[Arsize];
+	char dessert11[Arsize];
+
+
+	cout << " Enter your name:\n";
+	cin >> name11;
+	cin.ignore();
+	cout << "Enter your favorite dessert:\n";
+
+	cin.getline(dessert11, 20);
+
+	cout << "I have " << dessert11;
+	cout << "for you " << name11 << "\n";
+
+	cout << "--------------------------------------------------------------- " << endl;
+
+
+
+
 
 	return 0;
 }
