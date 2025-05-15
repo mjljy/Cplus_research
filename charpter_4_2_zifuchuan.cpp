@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 //int main()
-int main()
+int main42()
 {
 	cout << "xxxx  "  "yyyyyy\n";
 	cout << "xxxx      yyyyyy\n";
@@ -59,7 +59,7 @@ int main()
 	cout << "for you " << name10 << "\n";
 
 
-	cout << "------------------------------- first cin then cin.getline " << endl;
+	cout << "------------------------------- first cin then .get()  then  cin.getline " << endl;
 
 	char name11[Arsize];
 	char dessert11[Arsize];
@@ -67,8 +67,8 @@ int main()
 
 	cout << " Enter your name:\n";
 	cin >> name11;
-	cin.ignore();
-	//cin.get();
+	//cin.ignore();
+	cin.get();
 	cout << "Enter your favorite dessert:\n";
 
 	cin.getline(dessert11, 20);
@@ -85,8 +85,8 @@ int main()
 
 	cout << " Enter your name12:\n";
 	cin.get(name12, Arsize);
-	
 
+	cin.get();
 
 	cout << " Enter your dessert12:\n";
 	cin.get(dessert12, Arsize);
@@ -94,9 +94,6 @@ int main()
 
 	cout << "I have " << dessert12;
 	cout << "for you " << name12 << "\n";
-
-	cout << "--------------------------------------------------------------- " << endl;
-
 
 
 

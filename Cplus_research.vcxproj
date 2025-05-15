@@ -140,6 +140,8 @@
     <ClCompile Include="charpter_0_1_head.cpp" />
     <ClCompile Include="charpter_0_1_head_1.cpp" />
     <ClCompile Include="charpter_4_2_zifuchuan.cpp" />
+    <ClCompile Include="charpter_4_2_zifuchuan_1.cpp" />
+    <ClCompile Include="charpter_4_2_zifuchuan_2.cpp" />
     <ClCompile Include="charpter_4_fuheleixing.cpp" />
     <ClCompile Include="charpter_4_1_shuzu.cpp" />
   </ItemGroup>
