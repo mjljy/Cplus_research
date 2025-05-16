@@ -60,6 +60,9 @@
     <ClCompile Include="charpter_4_2_zifuchuan_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="charpter_4_3_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ctp\error.dtd" />
