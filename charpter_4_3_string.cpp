@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int main()
+int main431()
 {
 	cout << "-------------------------------------------------------" << endl;
 
@@ -40,15 +40,6 @@ int main()
 	cout << "s1 += s2 =  " << s1 << endl;
 	s2 += "wwwww";
 	cout << "s2 +=  \"wwwww\" =  " << s2 << endl;
-
-
-
 	cout << "-------------------------------------------------------" << endl;
-
-
-
-
-
-
 	return 0;
 }
