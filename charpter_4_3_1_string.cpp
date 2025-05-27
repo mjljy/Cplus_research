@@ -74,5 +74,11 @@ int main()
 	cout << " str1.length() =  " << str1.length() << endl;
 	//cout << " charr1.length() =  " << charr1.length() << endl;
 
+	wchar_t title[] = L"Chief song";
+
+	cout << R"(Jim "King "  "\n"        instead of endl.)" << endl;
+
+	cout << R"+*("(who would ?)", she .)+*"<<endl;
+
 	return 0;
 }
