@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int main()
+int main431()
 {
 	/*
 	strcpy(charr1,  charr2); // copy charr2  to charr1;
