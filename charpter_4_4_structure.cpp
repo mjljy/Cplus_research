@@ -12,7 +12,23 @@ struct struct_z {
 	string name;
 	float volume;
 	double price;
-};
+} struct_x_6, struct_x_7;
+
+
+struct struct_w {
+	string name;
+	float volume;
+	double price;
+} struct_x_8 = {
+	"wwww",
+	7,
+	0.4
+
+}, struct_x_9 = struct_x_8;
+
+
+
+
 int main()
 {
 	struct struct_y {
@@ -47,6 +63,13 @@ int main()
 	cout << "struct_x_4.name=  " << struct_x_4.name << endl;
 	cout << "struct_x_4.volume=  " << struct_x_4.volume << endl;
 	cout << "struct_x_4.price=  " << struct_x_4.price << endl;
+
+	cout << "---------------------------------------------------" << endl;
+	struct_z struct_x_5;
+	struct_x_5 = struct_x_4;
+	cout << "struct_x_5.name=  " << struct_x_5.name << endl;
+	cout << "struct_x_5.volume=  " << struct_x_5.volume << endl;
+	cout << "struct_x_5.price=  " << struct_x_5.price << endl;
 
 
 	return 0;
