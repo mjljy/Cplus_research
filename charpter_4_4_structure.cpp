@@ -71,6 +71,49 @@ int main()
 	cout << "struct_x_5.volume=  " << struct_x_5.volume << endl;
 	cout << "struct_x_5.price=  " << struct_x_5.price << endl;
 
+	cout << "---------------------------------------------------" << endl;
+	struct {
+		char name[20];
+		float volume;
+		double price;
+	} struct_x_10 = {
+		"Glorious Gloria",
+		1.88,
+		29.99
+	
+	}; // Initialized to to the incicated values
+
+	cout << "struct_x_10.name=  " << struct_x_10.name << endl;
+	cout << "struct_x_10.volume=  " << struct_x_10.volume << endl;
+	cout << "struct_x_10.price=  " << struct_x_10.price << endl;
+
+	cout << "---------------------------------------------------" << endl;
+	struct_z struct_x_11[2] = {
+		{"Glorious Gloria",1.88,29.99},
+		{"Glorious Gloria1",2.88,39.99}
+	};
+		 
+	cout << "struct_x_11[0].name=  " << struct_x_11[0].name << endl;
+	cout << "struct_x_11[0].volume=  " << struct_x_11[0].volume << endl;
+
+
+	cout << "struct_x_11[1].name=  " << struct_x_11[1].name << endl;
+	cout << "struct_x_11[1].volume=  " << struct_x_11[1].volume << endl;
+	cout << "---------------------------------------------------" << endl;
+
+
+	struct torgle_register {
+
+		unsigned  int SN : 4;
+		unsigned  int : 4; // 可以使用没有名称的字段来提供间距 
+		bool goodin : 1;
+		bool goodin1 : 1;
+	};
+	torgle_register tr = { 14,true,false };
+
+
+	cout << "tr.SN =  " << tr.SN << endl;
+	cout << "tr.goodin =  " << tr.goodin << endl;
 
 	return 0;
 
