@@ -145,6 +145,7 @@
     <ClCompile Include="charpter_4_3_1_string.cpp" />
     <ClCompile Include="charpter_4_3_0_string.cpp" />
     <ClCompile Include="charpter_4_4_structure.cpp" />
+    <ClCompile Include="charpter_4_5_gongtongti.cpp" />
     <ClCompile Include="charpter_4_fuheleixing.cpp" />
     <ClCompile Include="charpter_4_1_shuzu.cpp" />
   </ItemGroup>

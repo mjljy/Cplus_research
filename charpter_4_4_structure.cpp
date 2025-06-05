@@ -29,7 +29,7 @@ struct struct_w {
 
 
 
-int main()
+int main44()
 {
 	struct struct_y {
 		char name[20];
@@ -105,7 +105,7 @@ int main()
 	struct torgle_register {
 
 		unsigned  int SN : 4;
-		unsigned  int : 4; // 可以使用没有名称的字段来提供间距 
+		unsigned  int : 4; // 鍙互浣跨敤娌℃湁鍚嶇О鐨勫瓧娈垫潵鎻愪緵闂磋窛 
 		bool goodin : 1;
 		bool goodin1 : 1;
 	};

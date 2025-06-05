@@ -69,6 +69,9 @@
     <ClCompile Include="charpter_4_4_structure.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="charpter_4_5_gongtongti.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ctp\error.dtd" />
