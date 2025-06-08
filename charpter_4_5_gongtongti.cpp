@@ -5,7 +5,7 @@ using namespace std;
 复合类型
 */
 
-int main()
+int main45()
 {
 	union one4all
 	{
