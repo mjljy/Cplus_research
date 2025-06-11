@@ -2,10 +2,10 @@
 using namespace std;
 
 /*
-¸´ºÏÀàĞÍ
+å¤åˆç±»å‹
 */
 
-int main()
+int main46()
 {
 	enum specturm {red, orange, green, blue, vilote};
 	cout << "red=  " << red << endl;
