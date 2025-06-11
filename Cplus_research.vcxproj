@@ -149,6 +149,7 @@
     <ClCompile Include="charpter_4_0_fuheleixing.cpp" />
     <ClCompile Include="charpter_4_1_shuzu.cpp" />
     <ClCompile Include="charpter_4_6_enum.cpp" />
+    <ClCompile Include="charpter_50_algorithm_1_beibao.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
