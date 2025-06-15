@@ -38,6 +38,32 @@ int main()
 
 	/* 指针只声明不初始化 里面有值吗？ 不知道 但是是无效的不能使用的，用了就报错*/
 	int* p_higgens1;
-	cout << "p_higgens1= " << *p_higgens1 << endl; 
+	//cout << "p_higgens1= " << *p_higgens1 << endl; 
+
+
+
+	cout << "---------------------------------------" << endl;
+
+
+	int* pt = new int;
+	int nights = 100;
+	*pt = 100;
+	cout << "nights  = " << nights << endl;
+	cout << "*pt  = " << pt << endl;
+	cout << "nights addre = " << &nights << endl;
+	cout << "pt  = " << pt << endl;
+
+	double * pn = new double;
+	*pn = 100.01;
+
+	cout << "*pn  = " << pn << endl;
+	cout << "pn  = " << pn << endl;
+
+
+
+
+
+
+
 	return 0;
 }
