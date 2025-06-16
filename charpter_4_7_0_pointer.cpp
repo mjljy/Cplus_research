@@ -36,14 +36,11 @@ int main()
 	cout << "p_higgens  = " << p_higgens << endl;
 	cout << "higgens value use address= " << *p_higgens << endl;
 
-	/* Ö¸ÕëÖ»ÉùÃ÷²»³õÊ¼»¯ ÀïÃæÓĞÖµÂğ£¿ ²»ÖªµÀ µ«ÊÇÊÇÎŞĞ§µÄ²»ÄÜÊ¹ÓÃµÄ£¬ÓÃÁË¾Í±¨´í*/
+	/* æŒ‡é’ˆåªå£°æ˜ä¸åˆå§‹åŒ– é‡Œé¢æœ‰å€¼å—ï¼Ÿ ä¸çŸ¥é“ ä½†æ˜¯æ˜¯æ— æ•ˆçš„ä¸èƒ½ä½¿ç”¨çš„ï¼Œç”¨äº†å°±æŠ¥é”™ */
 	int* p_higgens1;
 	//cout << "p_higgens1= " << *p_higgens1 << endl; 
 
-
-
 	cout << "---------------------------------------" << endl;
-
 
 	int* pt = new int;
 	int nights = 100;
@@ -59,7 +56,10 @@ int main()
 	cout << "*pn  = " << pn << endl;
 	cout << "pn  = " << pn << endl;
 
-
+	cout << "---------------------------------------" << endl;
+	cout << "pn  = " << pn << endl;
+	delete pn;
+	cout << "pn  = " << pn << endl;
 
 
 
