@@ -129,7 +129,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="charpter_100_0.cpp" />
     <ClCompile Include="charpter_10_opp_2.cpp" />
+    <ClCompile Include="charpter_17_30.cpp" />
     <ClCompile Include="charpter_2.cpp" />
     <ClCompile Include="charpter_10_opp_3.cpp" />
     <ClCompile Include="charpter_10_opp_3_1.cpp" />
@@ -150,7 +152,7 @@
     <ClCompile Include="charpter_4_1_shuzu.cpp" />
     <ClCompile Include="charpter_4_6_enum.cpp" />
     <ClCompile Include="charpter_4_7_0_pointer.cpp" />
-    <ClCompile Include="charpter_50_algorithm_1_beibao.cpp" />
+    <ClCompile Include="charpter_4_7_8_pointer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

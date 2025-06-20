@@ -75,10 +75,16 @@
     <ClCompile Include="charpter_4_6_enum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="charpter_50_algorithm_1_beibao.cpp">
+    <ClCompile Include="charpter_4_7_0_pointer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="charpter_4_7_0_pointer.cpp">
+    <ClCompile Include="charpter_100_0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_17_30.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_4_7_8_pointer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

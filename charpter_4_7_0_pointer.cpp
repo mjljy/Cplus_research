@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
  
-int main()
+int main47()
 {
 	int home;
 	int home1;
@@ -62,7 +62,17 @@ int main()
 	cout << "pn  = " << pn << endl;
 
 
+	cout << "-------------------------------------" << endl;
 
+	cout << "creat dynamic array" << endl;
+	double* p3 = new double[3] {0.5,0.6,0.7};
+	cout << "p3 [0]  = " << * p3 << endl;
+	p3 = p3 + 1;
+	cout << "p3 [1]  = " << *p3 << endl;
+	p3 = p3 + 1;
+	cout << "p3 [2]  = " << *p3 << endl;
+	p3 = p3 - 2 ;
+	delete [] p3;
 
 
 	return 0;
