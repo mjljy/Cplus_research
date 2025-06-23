@@ -1,14 +1,15 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 
-int main()
+int main478()
+//int main()
 {
 
 	double wages[3] = { 10000.0, 20000.0, 30000.0 };
 	short  stacks[3] = { 3,2,1 };
 	short  stacks1[3] = { 7,8,9 };
-	cout << ">>>>>>>>>>>>>>>>>>>>>>>>>>>> & wages = " << &wages << endl;
-	cout << ">>>>>>>>>>>>>>>>>>>>>>>>>>>> wages = " << wages << endl;
+	cout << "& wages = " << &wages << endl;
+	cout << "wages = " << wages << endl;
 	// 获取地址
 
 	double* pw = wages; // 获取数组的地址  就是数组第一个元素的地址
@@ -26,6 +27,7 @@ int main()
 
 	cout << " wages address  pw = " << pw << endl;
 	cout << " wages address  pw = " << *pw << endl; // * 会获得数组第一个元素的值
+	cout << " wages address  wages = " << *wages << endl; // * 会获得数组第一个元素的值
 	
 	
 	cout << " wages address  pw = " << pw << endl;
@@ -89,13 +91,17 @@ int main()
 
 */
 
+	short tell[10];
+
+	cout << "使用地址运算符 &tell = " << &tell << endl;
+	cout << "使用数组的名字 tell = " << tell << endl;
+	// 获取地址
+
+	cout << "使用地址运算符 &tell+1 = " << &tell + 1 << endl;
+	cout << "使用数组的名字 tell+1 = " << tell + 1 << endl;
 
 
-
-
-
-
-
+	//short (*p)[20] = &tell;
 
 	return 0;
 
