@@ -154,6 +154,7 @@
     <ClCompile Include="charpter_4_7_0_pointer.cpp" />
     <ClCompile Include="charpter_4_7_8_pointer.cpp" />
     <ClCompile Include="charpter_4_8_3_pointer.cpp" />
+    <ClCompile Include="charpter_4_8_4_pointer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

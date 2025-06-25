@@ -17,7 +17,7 @@ int main47()
 	cout << "---------------------------------------" << endl;
 
 	int updates = 6;
-	int * p_updates;
+	int * p_updates; // 指针的声明
 	p_updates = &updates;
 	cout << "updates value = " << updates << endl;
 	cout << "updates value use address= " << * p_updates << endl;
@@ -42,7 +42,7 @@ int main47()
 
 	cout << "---------------------------------------" << endl;
 
-	int* pt = new int;
+	int* pt = new int;  // 指针的声明 和初始化 动态使用
 	int nights = 100;
 	*pt = 100;
 	cout << "nights  = " << nights << endl;
