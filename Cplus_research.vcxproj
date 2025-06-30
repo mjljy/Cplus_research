@@ -141,6 +141,7 @@
     <ClCompile Include="charpter_3_3_float.cpp" />
     <ClCompile Include="charpter_0_1_head.cpp" />
     <ClCompile Include="charpter_0_1_head_1.cpp" />
+    <ClCompile Include="charpter_4_10_replacement.cpp" />
     <ClCompile Include="charpter_4_2_zifuchuan.cpp" />
     <ClCompile Include="charpter_4_2_zifuchuan_1.cpp" />
     <ClCompile Include="charpter_4_2_zifuchuan_2.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="charpter_4_7_8_pointer.cpp" />
     <ClCompile Include="charpter_4_8_3_pointer.cpp" />
     <ClCompile Include="charpter_4_8_4_pointer.cpp" />
+    <ClCompile Include="charpter_4_9_combination.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

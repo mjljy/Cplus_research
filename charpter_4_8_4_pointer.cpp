@@ -12,7 +12,7 @@ struct inflatable {
 	double price;
 };
 
-int main() 
+int main484() 
 {
 
     //demo1();
@@ -46,18 +46,24 @@ int demo3()
     antractica_years_end* arp[3] = { &s01,&s02,&s03 };
     cout << "arp[0].year = " << arp[0]->year << endl;
     cout << "arp[0].year = " << (*arp[0]).year << endl;
-
-    //antractica_years_end * * ppa = arp;
-    antractica_years_end * * ppa1[1] = { arp };
-    auto ppa = arp;
-    //auto ppa1[1] = { arp };
-
-    //cout << "ppa arp[0].year = " << (*(*(ppa)))[0].year << endl;
-    cout << "ppa arp[0].year = " <<  (*(*ppa)).year << endl;
-    cout << "ppa1 arp[0].year = " << (*(*ppa)).year<< endl;
     cout << "-------------------------------------" << endl;
-    cout << "ppa -> arp[0].year = " << (*ppa)->year << endl;
+    antractica_years_end * * ppb = arp;
+    //auto ppa = arp;
+    
 
+    cout << "ppb **.year = " << (*(*(ppb))).year << endl;
+    cout << "ppb *->.year = " << (*(ppb))->year << endl;
+    cout << "ppb+1 **.year = " << (*(*(ppb+1))).year << endl;
+    cout << "ppb *->.year = " << (*(ppb+1))->year << endl;
+    cout << "-------------------------------------" << endl;
+    antractica_years_end ** ppb1[1] = { arp };
+    //auto ppa1[1] = { arp };
+    cout << "ppb1 **.year = " << (*(*(ppb1[0]))).year << endl;
+    cout << "ppb1 +1 **.year = " << (*(*(ppb1[0]+1))).year << endl;
+    cout << "ppb1 *->year = " << (*(ppb1[0]))->year << endl;
+    cout << "ppb1 +1 *->.year = " << (*(ppb1[0]+1))->year << endl;
+
+    cout << "-------------------------------------" << endl;
 
     return 0;
 
