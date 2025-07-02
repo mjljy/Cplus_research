@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <string>
 using namespace std;
 //int main()
 int main42()
@@ -95,6 +96,17 @@ int main42()
 	cout << "I have " << dessert12;
 	cout << "for you " << name12 << "\n";
 
+	cout << "----------------------------------- many inputs values" << endl;
+	string namex;
+	string passwordx;
+	cout << "请输入name和password：";
+	cin >> namex >> passwordx;
+	cout << "你输入的name是：" << namex << endl;
+	cout << "你输入的password是：" << passwordx << endl;
+	/*请输入name和password：xx yy
+	你输入的name是：xx
+	你输入的password是：yy
+	*/
 
 
 	return 0;

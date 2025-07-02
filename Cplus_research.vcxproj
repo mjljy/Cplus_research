@@ -154,9 +154,15 @@
     <ClCompile Include="charpter_4_6_enum.cpp" />
     <ClCompile Include="charpter_4_7_0_pointer.cpp" />
     <ClCompile Include="charpter_4_7_8_pointer.cpp" />
+    <ClCompile Include="charpter_4_7_9_pointer.cpp" />
     <ClCompile Include="charpter_4_8_3_pointer.cpp" />
     <ClCompile Include="charpter_4_8_4_pointer.cpp" />
+    <ClCompile Include="charpter_4_8_5_pointer.cpp" />
     <ClCompile Include="charpter_4_9_combination.cpp" />
+    <ClCompile Include="charpter_7_0_function.cpp" />
+    <ClCompile Include="charpter_7_1_function.cpp" />
+    <ClCompile Include="charpter_7_2_function.cpp" />
+    <ClCompile Include="charpter_7_3_function.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

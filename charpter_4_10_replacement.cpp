@@ -4,7 +4,7 @@
 #include <array>    // C++0x
 using namespace  std;
 
-int main()
+int main410()
 {
 
     // C, original C++

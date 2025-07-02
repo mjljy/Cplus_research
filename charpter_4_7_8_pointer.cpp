@@ -55,6 +55,7 @@ int main478()
 	会报错
 	严重性	代码	说明	项目	项目级别	路径	文件	行	列	类别	源	禁止显示状态	工具	详细信息	上下文
 	错误	C2440	“初始化”: 无法从“double (*)[3]”转换为“double *”	Cplus_research	1	D:\MJLJY\Github\Cplus_research	D:\MJLJY\Github\Cplus_research\charpter_4_7_8_pointer.cpp	13	13		生成		CL.exe
+	值 可以打印 但是不能赋值 类型不匹配
 
 	*/
 
