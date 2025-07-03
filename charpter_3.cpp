@@ -3,7 +3,7 @@
 #include <typeinfo>
 using namespace std;
 
-int main31()
+int main301()
 {   // 变量
 
 /* 
@@ -78,7 +78,7 @@ long long
 
 
 }
-int main32()
+int main302()
 {   // 变量
 
 
@@ -114,7 +114,7 @@ int main32()
 
 
 }
-int main33()
+int main303()
 {   // 变量
 	cout << "整型的展示" << endl;
 	int a = 10000;
@@ -128,7 +128,7 @@ int main33()
 
 
 }
-int main34()
+int main304()
 {   // 变量
 	cout << "----------------------------- :" << endl;
 	cout << "char  of " << sizeof(char) << " bytes" << endl;
@@ -140,7 +140,7 @@ int main34()
 	cout << "Thank you or the  " << ch << "   character. " << endl;
 	return 0;
 }
-int main35()
+int main305()
 {   // 变量
 	char ch = 'M';
 	int i = ch;
@@ -164,7 +164,7 @@ int main35()
 	cout << "The ASCII code for   " << i1 << "   is  " << i2 << endl;
 	return 0;
 }
-int main36() {
+int main306() {
 	cout << "*  <<<<<" << '*' << endl;
 	//cout.put('*');
 	//cout << "\a"  << endl;
@@ -206,7 +206,7 @@ int main36() {
 	return 0;
 }
 
-int main37()
+int main307()
 {
 	wchar_t bob = L'p';
 	wcout << " wchar_tbob = " << bob << endl;
@@ -220,7 +220,7 @@ int main37()
 	return 0;
 }
 
-int main38()
+int main308()
 {
 	// float long 
 	float x = 1.111;
@@ -246,7 +246,7 @@ int main38()
 	return 0;
 }
 
-int main39()
+int main309()
 {
 	cout << 7 / 3 << endl;
 

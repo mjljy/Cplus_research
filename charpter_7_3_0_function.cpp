@@ -2,7 +2,7 @@
 using namespace std;
 int sum_arry(int arr[], int n);
 int sum_arry1(int * arr, int n);
-int main()
+int main730()
 {
 	const int nums = 4;
 	int arr_sum = 0;
@@ -17,7 +17,7 @@ int main()
 
 int sum_arry(int arr[], int n)
 {
-	for (int i = 0; i < n; i++) {      //使用数组名和下标输出数组 
+	for (int i = 0; i < n; i++) {      //浣跨敤鏁扮粍鍚嶅拰涓嬫爣杈撳嚭鏁扮粍 
 		cout << "x=" << arr[i] << endl;
 	}
 	cout << endl;
@@ -37,7 +37,7 @@ int sum_arry(int arr[], int n)
 
 int sum_arry1(int * arr, int n)
 {
-	for (int i = 0; i < n; i++) {      //使用数组名和下标输出数组 
+	for (int i = 0; i < n; i++) {      //浣跨敤鏁扮粍鍚嶅拰涓嬫爣杈撳嚭鏁扮粍 
 		cout << "x=" << *arr << endl;
 		arr = arr + 1;
 
