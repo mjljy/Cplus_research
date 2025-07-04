@@ -9,7 +9,7 @@ void show_array(const double ar[], int n);  // don't change data
 void revalue(double r, double ar[], int n);
 
 
-int main() {
+int main731() {
 
 
 	// 1填充数组

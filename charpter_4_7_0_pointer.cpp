@@ -2,7 +2,12 @@
 using namespace std;
  
 int main47()
-{
+{/*
+ 
+ 	int * p1 = 10; 数字常量没有内存地址 不可以这么使用
+ */
+
+
 	int home;
 	int home1;
 	home = 9;
