@@ -47,7 +47,7 @@ int demo3()
     cout << "arp[0].year = " << arp[0]->year << endl;
     cout << "arp[0].year = " << (*arp[0]).year << endl;
     cout << "-------------------------------------" << endl;
-    antractica_years_end * * ppb = arp;
+    antractica_years_end * * ppb = arp; // 二级指针  指针的指针
     //auto ppa = arp;
     
 

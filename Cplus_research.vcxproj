@@ -167,6 +167,8 @@
     <ClCompile Include="charpter_7_3_0_function.cpp" />
     <ClCompile Include="charpter_7_3_4_function.cpp" />
     <ClCompile Include="charpter_7_3_5_function.cpp" />
+    <ClCompile Include="charpter_7_4_0_function.cpp" />
+    <ClCompile Include="charpter_7_4_1_function.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

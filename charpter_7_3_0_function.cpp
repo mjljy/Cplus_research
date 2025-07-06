@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int sum_arry(int arr[], int n);
+//int sum_arry(int [], int);
 int sum_arry1(int * arr, int n);
 int main730()
 {
