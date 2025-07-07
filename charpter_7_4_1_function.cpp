@@ -4,7 +4,7 @@ int sum(int (*arr)[4],int );
 //int sum(int (arr[])[4], int);
 //int sum(int arr[][4], int);
 int sum1(int arr[][4], int);
-int main() {
+int main741() {
 
 
 	int data[3][4] = { {1,2,3,4},{9,8,7,6},{2,4,6,8}, };
