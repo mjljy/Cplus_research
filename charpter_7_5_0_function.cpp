@@ -1,13 +1,11 @@
 #include <iostream>
 using namespace std;
 unsigned int c_in_str(const char*, char);
+//unsigned int c_in_str(const char [], char);
 
-int main() {
+int main750() {
 
-
-
-	char mmm[20] = "mnimum";
-
+	char mmm[20] = "mnimum";   // 用双引号括起的字符串 隐式的包括结尾的空字符，因此不用再显示的加上
 	const char *wail = "ululutttt"; //  常量的指针传递声明 必须使用const修饰
 
 	unsigned int w = 0;
@@ -19,7 +17,6 @@ int main() {
 	cout << "w=" << w << endl;
 
 	return 0;
-
 }
 
 
@@ -32,8 +29,14 @@ int main() {
 unsigned int c_in_str(const char * x, char ch)
 {
 	int nums = 0;
-	while (*x)
-	{
+	while (1)
+	{   
+		cout << "w=" << *x << endl;
+		if (!*x)
+		{
+			break;
+		}
+
 		if (*x == ch)
 		{
 			nums++;
