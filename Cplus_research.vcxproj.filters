@@ -144,6 +144,21 @@
     <ClCompile Include="charpter_7_6_0_function.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="charpter_7_6_1_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_7_6_2_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_7_7_0_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_7_8_0_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_7_9_0_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ctp\error.dtd" />
