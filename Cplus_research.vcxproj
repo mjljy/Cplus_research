@@ -161,6 +161,7 @@
     <ClCompile Include="charpter_4_8_5_pointer.cpp" />
     <ClCompile Include="charpter_4_9_combination.cpp" />
     <ClCompile Include="charpter_7_0_function.cpp" />
+    <ClCompile Include="charpter_7_10_0_function.cpp" />
     <ClCompile Include="charpter_7_1_function.cpp" />
     <ClCompile Include="charpter_7_2_function.cpp" />
     <ClCompile Include="charpter_7_3_1_function.cpp" />
