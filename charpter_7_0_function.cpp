@@ -21,6 +21,12 @@ int main70() {
 	cout << "y" << y << endl;
 	y = w1("flag2");
 	cout << "y" << y << endl;
+	cout << "------------------" << endl;
+
+
+	const double  p= 0;
+
+	p =  
 
 	return 0;
 }
@@ -33,4 +39,14 @@ int  w(const char x[]) {
 int  w1(const char * x) {
 	cout << "x=" << x << endl;
 	return 10;
+}
+
+//  const double * f1 ( const double ar[], int n)
+
+const double* f1(const double ar[], int n)
+{
+
+	return 0.22
+
+
 }
