@@ -2,7 +2,8 @@
 using namespace std;
 int sum_arry(int arr[], int n);
 //int sum_arry(int [], int);
-int sum_arry1(int * arr, int n);
+//int sum_arry1(int * arr, int n);  //对于数组来说
+int sum_arry1(int * , int n);       //对于数组来说  指针变量名和数组名通常是通用的
 int main730()
 {
 	const int nums = 4;

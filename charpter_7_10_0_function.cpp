@@ -6,7 +6,7 @@ int    calc3(double x);
 void estimate(int ,double(*pf)(int));
 void estimate1(int(*pf)(double));
 
-int main() {
+int main7100() {
 
 	int y = 10000;
 

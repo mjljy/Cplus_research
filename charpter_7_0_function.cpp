@@ -2,6 +2,8 @@
 using namespace  std;
 int w(const char[]);
 int w1(const char *);
+const double* f1();
+const double* f2();
 int main70() {
 	/*
 	函数参数传递
@@ -23,10 +25,25 @@ int main70() {
 	cout << "y" << y << endl;
 	cout << "------------------" << endl;
 
+	const double  * p ;
+	/*
+	“初始化”: 无法从“double”转换为“const double *”
+	*/
+	p = f1();
+	cout << "f1  p=" << p << endl;
 
-	const double  p= 0;
+	cout << "f1  p=" << *p << endl;
 
-	p =  
+	auto f2 = f1;
+	const double* p1;
+	p1 = f2();
+	cout << "p1=" << *p1 << endl;
+
+
+	auto f3 = f1;
+	const double* p2;
+	p2 = f3();
+	cout << "p1=" << *p1 << endl;
 
 	return 0;
 }
@@ -43,10 +60,11 @@ int  w1(const char * x) {
 
 //  const double * f1 ( const double ar[], int n)
 
-const double* f1(const double ar[], int n)
+const double * f1() // 值是不能改的
 {
-
-	return 0.22
-
-
+	const double * p = new  double(0.2);
+	//*p = 0.5;
+	cout << "f   -------  p=" << *p << endl;
+	cout << "f   -------  p=" << p << endl;
+	return p;
 }
