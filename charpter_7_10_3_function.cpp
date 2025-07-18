@@ -9,7 +9,7 @@ const double* f1(const double ar[], int n);
 const double* f2(const double[], int);
 const double* f3(const double*, int);
 
-int main()
+int main7103()
 {
     using namespace std;
     double av[3] = { 1112.3, 1542.6, 2227.9 };
