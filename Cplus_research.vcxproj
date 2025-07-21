@@ -180,6 +180,7 @@
     <ClCompile Include="charpter_7_8_0_function.cpp" />
     <ClCompile Include="charpter_7_9_0_function.cpp" />
     <ClCompile Include="charpter_8_1_1_function.cpp" />
+    <ClCompile Include="charpter_8_2_1_function.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
