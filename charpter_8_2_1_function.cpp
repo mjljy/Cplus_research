@@ -69,6 +69,27 @@ int main() {
 	cout << "dodents  =" << &dodents << endl;
 	cout << "rars1    =" << &rars1 << endl;
 
+	cout << "-----------------------------------------------" << endl;
+
+	int pots = 101;
+	int* pt = &pots;
+	cout << "pots     =" << &pots << endl;
+	cout << "pots     =" << pots << endl;
+	cout << "pt       =" << pt << endl;
+	cout << "*pt      =" << *pt << endl;
+	cout << "business     =" << &business << endl;
+	cout << "business     =" << business << endl;
+	
+	int& rodentss = *pt; // 地址的引用
+	cout << "*rodentss      =" << rodentss << endl;
+	cout << "&rodentss      =" << &rodentss << endl;
+	pt = &business;
+	cout << "*rodentss      =" << rodentss << endl;
+	cout << "&rodentss      =" << &rodentss << endl;
+	cout << "pt       =" << pt << endl;
+	cout << "*pt      =" << *pt << endl;
+
+
 
 	return 0;
 
