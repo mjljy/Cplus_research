@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
-int main() {
+int main821() {
 
 	int rats=101;
 	int& dodents = rats;
