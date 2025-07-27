@@ -37,6 +37,25 @@ int main44()
 		double price;
 	};
 
+	struct struct_y1 {
+		char name[20];
+		float volume;
+		int price;
+	};
+
+	cout << "---------------------------------------------------" << endl;
+	struct_y tr1{};
+	cout << "tr1.name =  " << tr1.name << endl;
+	cout << "tr1.volume =  " << tr1.volume << endl;
+	cout << "tr1.price =  " << tr1.price << endl;
+
+	cout << "---------------------------------------------------" << endl;
+	struct_y1 tr2{"xxx",3.3,4.4};
+	cout << "tr2.name =  " << tr2.name << endl;
+	cout << "tr2.volume =  " << tr2.volume << endl;
+	cout << "tr2.price =  " << tr2.price << endl;
+	cout << "---------------------------------------------------" << endl;
+
 	struct_x struct_x_1 = {
 		"Glorious Gloria",
 		1.88,
@@ -114,6 +133,9 @@ int main44()
 
 	cout << "tr.SN =  " << tr.SN << endl;
 	cout << "tr.goodin =  " << tr.goodin << endl;
+
+
+
 
 	return 0;
 

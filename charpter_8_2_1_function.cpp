@@ -38,7 +38,7 @@ int main821() {
 	cout << "dodents  =" << &dodents << endl;
 	cout << "rars1    =" << &rars1 << endl;
 
-	cout << "-----------------------------------------------" << endl;
+	cout << "----------------------------------------------- dodents = business" << endl;
 
 
 	int business = 50;
@@ -77,17 +77,23 @@ int main821() {
 	cout << "pots     =" << pots << endl;
 	cout << "pt       =" << pt << endl;
 	cout << "*pt      =" << *pt << endl;
-	cout << "business     =" << &business << endl;
-	cout << "business     =" << business << endl;
+
 	
 	int& rodentss = *pt; // 地址的引用
+
 	cout << "*rodentss      =" << rodentss << endl;
 	cout << "&rodentss      =" << &rodentss << endl;
+
 	pt = &business;
 	cout << "*rodentss      =" << rodentss << endl;
 	cout << "&rodentss      =" << &rodentss << endl;
 	cout << "pt       =" << pt << endl;
 	cout << "*pt      =" << *pt << endl;
+
+	cout << "-----------------------------------------------把引用再赋值给别的变量 pots11 = rodentsss" << endl;
+	int pots11 = rodentss;
+	cout << "pots11      =" << pots11 << endl;
+	cout << "&pots11      =" << &pots11 << endl;
 
 
 
