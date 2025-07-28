@@ -2,17 +2,22 @@
 #include <iostream>
 const int ArSize = 80;
 char* left(const char* str, int n = 1);
+using namespace std;
 int main830()
 {
-    using namespace std;
+
     char sample[ArSize];
     cout << "Enter a string:\n";
     cin.get(sample, ArSize);
+
+
     char* ps = left(sample, 4);
-    cout << ps << endl;
+    cout << "ps="<<ps << endl;
     delete[] ps;       // free old string
+
     ps = left(sample);
-    cout << ps << endl;
+
+    cout << "ps=" << ps << endl;
     delete[] ps;       // free new string
     // cin.get();
     // cin.get();
@@ -29,7 +34,10 @@ char* left(const char* str, int n)
     int i;
     for (i = 0; i < n && str[i]; i++)
         p[i] = str[i];  // copy characters
+
+    std::cout << "n=" << n << std::endl;
     while (i <= n)
         p[i++] = '\0';  // set rest of string to '\0'
+
     return p;
 }
