@@ -3,7 +3,7 @@
 unsigned long left1(unsigned long num, unsigned ct);
 char* left1(const char* str, int n = 1);
 
-int main()
+int main841()
 {
     using namespace std;
     const char* trip = "Hawaii!!";   // test value

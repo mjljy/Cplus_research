@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -190,6 +190,7 @@
     <ClCompile Include="charpter_8_2_7_function.cpp" />
     <ClCompile Include="charpter_8_3_0_function.cpp" />
     <ClCompile Include="charpter_8_4_1_function.cpp" />
+    <ClCompile Include="charpter_8_5_0_function.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
