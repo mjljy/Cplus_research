@@ -198,6 +198,15 @@
     <ClCompile Include="charpter_8_4_1_function.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="charpter_8_5_0_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_8_5_1_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_8_5_3_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ctp\error.dtd" />
