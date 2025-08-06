@@ -4,7 +4,7 @@ int w(const char[]);
 int w1(const char *);
 const double* f1();
 const double* f2();
-int main() {
+int main70() {
 	/*
 	函数参数传递
 	1. char 数组 ""   原型给数组和指针都是完全一样的吗？等效的
