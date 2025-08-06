@@ -1,7 +1,9 @@
 #include<iostream>
 using namespace  std;
+const double* f1();
+const double* f2();
 
-void simple(); // º¯ÊıÔ­ĞÍ  ¿´×öº¯ÊıµÄ¶¨ÒåËµÃ÷ Ò»¶¨ÒªÓĞ
+void simple(); // å‡½æ•°åŸå‹  çœ‹åšå‡½æ•°çš„å®šä¹‰è¯´æ˜ ä¸€å®šè¦æœ‰
 
 void demo1();
 void demo2();
@@ -39,7 +41,7 @@ int main71()
 
 void simple()
 {
-	// º¯Êı¶¨Òå ÕæÕıµÄº¯Êı±í´ï
+	// å‡½æ•°å®šä¹‰ çœŸæ­£çš„å‡½æ•°è¡¨è¾¾
 	cout << "i am a simple function" << endl;
 
 };

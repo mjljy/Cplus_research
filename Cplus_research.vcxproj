@@ -193,6 +193,8 @@
     <ClCompile Include="charpter_8_5_0_function.cpp" />
     <ClCompile Include="charpter_8_5_1_function.cpp" />
     <ClCompile Include="charpter_8_5_3_function.cpp" />
+    <ClCompile Include="charpter_9_1_0_function.cpp" />
+    <ClCompile Include="charpter_9_1_1_function.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
@@ -206,6 +208,7 @@
   <ItemGroup>
     <ClInclude Include="charpter_0_head.h" />
     <ClInclude Include="charpter_0_log.h" />
+    <ClInclude Include="charpter_9_1_1_head.h" />
     <ClInclude Include="ctp\ThostFtdcMdApi.h" />
     <ClInclude Include="ctp\ThostFtdcTraderApi.h" />
     <ClInclude Include="ctp\ThostFtdcUserApiDataType.h" />

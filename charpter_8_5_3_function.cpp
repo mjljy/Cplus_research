@@ -1,7 +1,7 @@
 // twoswap.cpp -- specialization overrides a template
 #include <iostream>
 template <typename T>
-void Swap(T& a, T& b); // º¯ÊýÄ£°æ
+void Swap(T& a, T& b); // å‡½æ•°æ¨¡ç‰ˆ
 
 
 struct job
@@ -11,11 +11,11 @@ struct job
     int floor;
 };
 
-// explicit specialization  º¯ÊýÄ£°æÏÔÊ¾¾ßÌå»¯
+// explicit specialization  å‡½æ•°æ¨¡ç‰ˆæ˜¾ç¤ºå…·ä½“åŒ–
 template <> void Swap<job>(job& j1, job& j2);
 void Show(job& j);
 
-int main()
+int main853()
 {
     using namespace std;
     cout.precision(2);
