@@ -8,6 +8,7 @@ struct polar910
 {
     double distance;    // distance from origin
     double angle;        // direction from origin
+
 };
 struct rect910
 {
