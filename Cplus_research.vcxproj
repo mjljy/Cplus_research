@@ -196,6 +196,11 @@
     <ClCompile Include="charpter_9_1_0_function.cpp" />
     <ClCompile Include="charpter_9_1_1_function.cpp" />
     <ClCompile Include="charpter_9_2_2.cpp" />
+    <ClCompile Include="charpter_9_2_4.cpp" />
+    <ClCompile Include="charpter_9_2_4_1.cpp" />
+    <ClCompile Include="charpter_9_2_5.cpp" />
+    <ClCompile Include="charpter_9_2_5_1.cpp" />
+    <ClCompile Include="charpter_9_2_6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

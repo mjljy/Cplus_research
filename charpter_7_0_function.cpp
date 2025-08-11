@@ -4,7 +4,7 @@ int w(const char[]);
 int w1(const char *);
 const double* f1();
 const double* f2();
-int main() {
+int main70() {
 	/*
 	函数参数传递
 	1. char 数组 ""   原型给数组和指针都是完全一样的吗？等效的
@@ -47,12 +47,22 @@ int main() {
 
 	{
 		static int x_jigntai_static = 100;
+		
 		int neibu_de_neibu_x = 10;
 		cout << "neibu_de_neibu_x=" << neibu_de_neibu_x << endl;
 		cout << "x_jigntai_static=" << x_jigntai_static << endl;
+		{
+			cout << "x_jigntai_static=" << x_jigntai_static << endl;
+			cout << "neibu_de_neibu_x=" << neibu_de_neibu_x << endl;
+		}
+		x_jigntai_static = x_jigntai_static + 10;
+		//static int x_jigntai_static = 100;
+		{
+			cout << "x_jigntai_static=" << x_jigntai_static << endl;
+			cout << "neibu_de_neibu_x=" << neibu_de_neibu_x << endl;
+		}
 	}
 	//cout << "neibu_de_neibu_x=" << neibu_de_neibu_x << endl;
-	cout << "x_jigntai_static=" << x_jigntai_static << endl;
 	int i = 1;
 	while (i < 2)
 	{
@@ -65,7 +75,7 @@ int main() {
 	}
 	cout << "i=" << i << endl;
 	//cout << "x_i=" << x_i << endl;
-	cout << "y_jigntai_static=" << y_jigntai_static << endl;
+	//cout << "y_jigntai_static=" << y_jigntai_static << endl;
 
 
 
