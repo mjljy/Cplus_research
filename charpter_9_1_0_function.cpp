@@ -12,6 +12,8 @@ int main910()
     cout << "Enter the x and y values: ";
     while (cin >> rplace.x >> rplace.y)  // slick use of cin
     {
+        
+
         pplace = rect_to_polar910(rplace);
         show_polar910(pplace);
         cout << "Next two numbers (q to quit): ";
