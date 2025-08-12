@@ -6,7 +6,7 @@ static int harry = 300; // static, internal linkage
 // function prototype
 void remote_access();
 
-int main926()
+int main925()
 {
     using namespace std;
     cout << "main() reports the following addresses:\n";

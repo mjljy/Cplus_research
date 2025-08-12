@@ -10,7 +10,7 @@ void local();
 
 int www = 10;
 
-int main925()                  // uses global variable
+int main924()                  // uses global variable
 {
     using namespace std;
     cout << "Global warming is " << warming << " degrees.\n";

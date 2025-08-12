@@ -231,6 +231,15 @@
     <ClCompile Include="charpter_9_2_6.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="charpter_9_2_7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_9_2_7_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter_9_2_10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ctp\error.dtd" />
@@ -267,6 +276,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="charpter_9_1_1_head.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="charpter_9_2_7_10_head.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="charpter_9_2_7_11_head.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="charpter_9_2_7_12_head.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
