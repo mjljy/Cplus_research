@@ -31,8 +31,9 @@ int main() {
     pd2 = new (buffer) double[N];  // use buffer array
     for (i = 0; i < N; i++)
         pd2[i] = pd1[i] = 1000 + 20.0 * i;
-    cout << "Memory addresses:\n" << "  heap: " << pd1
-        << "  static: " << (void*)buffer << endl;
+    
+    cout << "Memory addresses:\n" << "  heap: " << pd1  << "  static: " << (void*)buffer << endl;
+    
     cout << "Memory contents:\n";
     for (i = 0; i < N; i++)
     {
@@ -55,8 +56,11 @@ int main() {
 
     cout << "\nCalling new and placement new a third time:\n";
     delete[] pd1;
+
     pd1 = new double[N];
+    
     pd2 = new (buffer + N * sizeof(double)) double[N];
+
     for (i = 0; i < N; i++)
         pd2[i] = pd1[i] = 1000 + 60.0 * i;
     cout << "Memory contents:\n";
