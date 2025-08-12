@@ -9,7 +9,7 @@ char buffer[BUF];      // chunk of memory
 
 
 using namespace  std;
-int main() {
+int main9210() {
 
 	int* pi = new int;
 	*pi = 10;

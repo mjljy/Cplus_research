@@ -204,6 +204,7 @@
     <ClCompile Include="charpter_9_2_6.cpp" />
     <ClCompile Include="charpter_9_2_7.cpp" />
     <ClCompile Include="charpter_9_2_7_1.cpp" />
+    <ClCompile Include="charpter_9_3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
