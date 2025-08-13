@@ -4,7 +4,7 @@ using namespace std;
 namespace Jack {
 	double pail;
 	void fetch();
-	int pal;
+	int pal=100;
 	struct Well {};
 }
 
@@ -12,7 +12,7 @@ namespace Jill {
 	double bucket(double n); // functioon definition 
 	//double bucket(double n) {}; // functioon definition 
 	double fetch;
-	int pal;
+	int pal=200;
 	struct Hill {};
 }
 namespace Jack {
@@ -25,20 +25,25 @@ namespace Jack {
 	
 	}
 }
-double pail = 9.99;
+//char fetch;
+//double pal = 300.001;
+//using Jill::pal;
 
-int main() {
+int main93() {
 
-	Jack::pail = 2.4;
-	Jill::Hill mole;
-	Jack::fetch();
-	//double pail;
-	using Jack::pail;
+	//Jill::Hill mole;
+	//Jack::fetch();
 
-	pail = 10;
+	//using Jack::fetch;
+	//double fetch;  Error   如果这局部变量中定义了同名的变量，编译不允许
 
-	cout <<"pail=" << pail<<endl;
-	cout << "Jack::pail=" << Jack::pail << endl;
+
+	//using namespace  Jack;
+	//using Jack::pal;
+	double pail = 10;
+	using namespace  Jill;
+	cout <<"pal=" << pal <<endl;
+	//cout << "Jack::pal=" << Jack::pal << endl;
 
 	return 0;
 
