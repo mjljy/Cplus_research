@@ -4,6 +4,7 @@
 
 void other(void);
 void another(void);
+
 int main(void)
 {
     using debts::Debt;
@@ -40,7 +41,7 @@ void other(void)
 
 void another(void)
 {
-    using pers::Person;;
+    using pers::Person;
 
     Person collector = { "Milo", "Rightshift" };
     pers::showPerson(collector);

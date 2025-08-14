@@ -130,11 +130,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="charpter_100_0.cpp" />
-    <ClCompile Include="charpter_10_opp_2.cpp" />
+    <ClCompile Include="charpter_10x_opp_2.cpp" />
     <ClCompile Include="charpter_17_30.cpp" />
     <ClCompile Include="charpter_2.cpp" />
-    <ClCompile Include="charpter_10_opp_3.cpp" />
-    <ClCompile Include="charpter_10_opp_3_1.cpp" />
+    <ClCompile Include="charpter_10x_opp_3.cpp" />
+    <ClCompile Include="charpter_10x_opp_3_1.cpp" />
     <ClCompile Include="charpter_3.cpp" />
     <ClCompile Include="charpter_3_1_char.cpp" />
     <ClCompile Include="charpter_3_2_char.cpp" />
