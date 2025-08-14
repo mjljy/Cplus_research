@@ -249,6 +249,9 @@
     <ClCompile Include="charpter_9_3_3_1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="charpter_10_2_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ctp\error.dtd" />
@@ -297,6 +300,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="charpter_9_3_1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="charpter_10_2_2.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="charpter_100_0.cpp" />
     <ClCompile Include="charpter_10x_opp_2.cpp" />
+    <ClCompile Include="charpter_10_2_2.cpp" />
     <ClCompile Include="charpter_17_30.cpp" />
     <ClCompile Include="charpter_2.cpp" />
     <ClCompile Include="charpter_10x_opp_3.cpp" />
@@ -220,6 +221,7 @@
   <ItemGroup>
     <ClInclude Include="charpter_0_head.h" />
     <ClInclude Include="charpter_0_log.h" />
+    <ClInclude Include="charpter_10_2_2.h" />
     <ClInclude Include="charpter_9_1_1_head.h" />
     <ClInclude Include="charpter_9_2_7_11_head.h" />
     <ClInclude Include="charpter_9_2_7_10_head.h" />
