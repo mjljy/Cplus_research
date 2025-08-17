@@ -132,6 +132,7 @@
     <ClCompile Include="charpter_100_0.cpp" />
     <ClCompile Include="charpter_10x_opp_2.cpp" />
     <ClCompile Include="charpter_10_2_2.cpp" />
+    <ClCompile Include="charpter_10_2_4.cpp" />
     <ClCompile Include="charpter_17_30.cpp" />
     <ClCompile Include="charpter_2.cpp" />
     <ClCompile Include="charpter_10x_opp_3.cpp" />
