@@ -5,7 +5,7 @@
 void other(void);
 void another(void);
 
-int main(void)
+int main9331(void)
 {
     using debts::Debt;
     using debts::showDebt;
