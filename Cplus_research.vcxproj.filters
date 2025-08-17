@@ -252,6 +252,9 @@
     <ClCompile Include="charpter_10_2_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="charpter_10_2_4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="charpter_10_3_0.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
