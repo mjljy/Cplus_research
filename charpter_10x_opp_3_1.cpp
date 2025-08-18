@@ -29,7 +29,7 @@ double Line::getLength(void)
 }
 // 程序的主函数
 
-int main10301()
+int main10301x()
 {
     Line line;
     // 设置长度

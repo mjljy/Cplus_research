@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-// ��û���Լ�д�Ĺ��캯��
+// 都没有自己写的构造函数
 class Demo1 {
-	// ������˽�е�����£������ǲ���ֱ�ӷ��ʵģ�ֻ��ͨ�����к��������ʣ��⵱Ȼ���൱�鷳��
+	// 数据是私有的情况下，程序是不能直接访问的，只能通过公有函数来访问，这当然是相当麻烦的
 	int x1;
 	int y1;
 	public:
@@ -11,7 +11,7 @@ class Demo1 {
 		void fuc2() { cout << "Demo1 fuc2 x1=" << x1  << " y1=" << y1 << endl;}};
 
 class Demo2 {
-	// �����ǹ��е�����£�����ͨ��{}��ֱ�ӳ�ʼ����������Υ����C++��� �������ص�����
+	// 数据是公有的情况下，可以通过{}来直接初始化，但是这违背了C++类的 数据隐藏的特性
 	public:
 		int x1;
 		int y1;
@@ -19,9 +19,9 @@ class Demo2 {
 		void fuc1(int x, int y) { x1 = x; y1 = y; };
 		void fuc2() { cout << "Demo2 fuc2 x1=" << x1 << " y1=" << y1 << endl; }};
 
-// �Լ�дһ����ͨ��public�������䵱��ʼ��������������
+// 自己写一个普通的public函数来充当初始化函数，可以吗？
 class Demo3 {
-	// ������˽�е�����£������ǲ���ֱ�ӷ��ʵģ�ֻ��ͨ�����к��������ʣ��⵱Ȼ���൱�鷳��
+	// 数据是私有的情况下，程序是不能直接访问的，只能通过公有函数来访问，这当然是相当麻烦的
 	int x1;
 	int y1;
 public:
@@ -30,12 +30,12 @@ public:
 };
 
 
-int main() {
+int main1030() {
 	Demo1 demo1;
 	demo1.fuc1(10,20);
 	demo1.fuc2();
 	//
-	Demo2 demo2 = Demo2{ 10,20 }; // Demo2 demo2 = { 10,20 };
+	Demo2 demo2 = Demo2{ 10,20 }; // Demo2 demo2 = { 10,20 }; 隐式的调用默认构造函数的时候 不要使用圆括号  要使用 大括号
 	demo2.fuc2();
 	//
 	Demo3 demo3;
@@ -45,5 +45,5 @@ int main() {
 
 
 
-
+	return 0;
 }

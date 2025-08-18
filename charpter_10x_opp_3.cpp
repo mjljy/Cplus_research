@@ -38,7 +38,7 @@ Opp_test_2::~Opp_test_2()
 	cout << "Opp_test_2 here" << endl;;
 }
 
-int main1030()
+int main1030x()
 {
 	Opp_test_2 shili(1, 2);
 	shili.out_put();

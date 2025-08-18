@@ -39,7 +39,7 @@ int Opp_test::fuc1(int x, int y)
 	return x * y;
 };
 
-int main1020()
+int main1020x()
 {
 	Opp_test d;
 	int c;
