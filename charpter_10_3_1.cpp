@@ -31,7 +31,7 @@ int main1031() {
 	demo41.fuc2();
 
 	//Demo4 demo42(100, 200);
-	Demo4 demo42 = Demo4{ 100, 200 };
+	Demo4 demo42 = { 100, 200 };
 	demo42.fuc2();
 
 

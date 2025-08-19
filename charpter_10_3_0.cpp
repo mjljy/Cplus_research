@@ -37,7 +37,8 @@ int main1030() {
 	//demo1.fuc2();
 	//
 	//Demo2 demo2 = Demo2{ 10,20 };    // OK
-	 Demo2 demo2{ 10,20 };             // OK
+	 //Demo2 demo2{ 10,20 };             // OK
+	 Demo2 demo2 = { 10,20 };             // OK
 	//Demo2 demo2 = Demo2(10,20);      // Error “<function-style-cast>”: 无法从“initializer list”转换为“Demo2”
 	//Demo2 demo2(10, 20);             // Error “<function-style-cast>”: 无法从“initializer list”转换为“Demo2”
 	demo2.fuc2();

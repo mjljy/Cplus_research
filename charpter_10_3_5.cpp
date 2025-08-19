@@ -31,7 +31,9 @@ Stock1035::Stock1035(const std::string& co, long n, double pr)
 // class destructor
 Stock1035::~Stock1035()        // verbose class destructor
 {
+    std::cout << "====================================================!\n";
     std::cout << "Bye, " << company << "!\n";
+    std::cout << "====================================================!\n";
 }
 
 // other methods
@@ -77,21 +79,44 @@ void Stock1035::update(double price)
     set_tot();
 }
 
-void Stock1035::show()
+//void Stock1035::show()
+//{
+//    using std::cout;
+//    using std::ios_base;
+//    // set format to #.###
+//    ios_base::fmtflags orig = cout.setf(ios_base::fixed, ios_base::floatfield);
+//    std::streamsize prec = cout.precision(3);
+//    
+//    cout << "Company: " << company  << "  Shares: " << shares << '\n';
+//    cout << "  Share Price: $" << share_val;
+//    
+//    // set format to #.##
+//    cout.precision(2);
+//    cout << "  Total Worth: $" << total_val << '\n';
+//    
+//    // restore original format
+//    cout.setf(orig, ios_base::floatfield);
+//    cout.precision(prec);
+//}
+
+void Stock1035::show() const
+
 {
+
     using std::cout;
     using std::ios_base;
+    cout << "const  **********************" << std::endl;
     // set format to #.###
     ios_base::fmtflags orig = cout.setf(ios_base::fixed, ios_base::floatfield);
     std::streamsize prec = cout.precision(3);
-    
-    cout << "Company: " << company  << "  Shares: " << shares << '\n';
+
+    cout << "Company: " << company << "  Shares: " << shares << '\n';
     cout << "  Share Price: $" << share_val;
-    
+
     // set format to #.##
     cout.precision(2);
     cout << "  Total Worth: $" << total_val << '\n';
-    
+
     // restore original format
     cout.setf(orig, ios_base::floatfield);
     cout.precision(prec);
@@ -122,8 +147,14 @@ int main()
         stock1 = Stock1035("Nifty Foods", 10, 50.0);    // temp object
         cout << "Revised stock1:\n";
         stock1.show();
-        cout << "Done\n";
+        
+        
+        
+        const Stock1035 stock3("Nifty Foods", 10, 50.0);    // temp object
+        stock3.show();
+
     }
+    std::cout << "Done\n";
     // std::cin.get();
     return 0;
 }
