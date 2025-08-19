@@ -15,6 +15,7 @@ class Demo2 {
 	public:
 		int x1;
 		int y1;
+		int w1;
 	public:
 		void fuc1(int x, int y) { x1 = x; y1 = y; };
 		void fuc2() { cout << "Demo2 fuc2 x1=" << x1 << " y1=" << y1 << endl; }};
@@ -31,16 +32,19 @@ public:
 
 
 int main1030() {
-	Demo1 demo1;
-	demo1.fuc1(10,20);
-	demo1.fuc2();
+	//Demo1 demo1;
+	//demo1.fuc1(10,20);
+	//demo1.fuc2();
 	//
-	Demo2 demo2 = Demo2{ 10,20 }; // Demo2 demo2 = { 10,20 }; 隐式的调用默认构造函数的时候 不要使用圆括号  要使用 大括号
+	//Demo2 demo2 = Demo2{ 10,20 };    // OK
+	 Demo2 demo2{ 10,20 };             // OK
+	//Demo2 demo2 = Demo2(10,20);      // Error “<function-style-cast>”: 无法从“initializer list”转换为“Demo2”
+	//Demo2 demo2(10, 20);             // Error “<function-style-cast>”: 无法从“initializer list”转换为“Demo2”
 	demo2.fuc2();
-	//
-	Demo3 demo3;
-	demo3.init(10,20);
-	demo3.fuc2();
+	////
+	//Demo3 demo3;
+	//demo3.init(10,20);
+	//demo3.fuc2();
 
 
 
