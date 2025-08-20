@@ -19,6 +19,7 @@ public:
     void update(double price);
     //void show();
     void show() const;
+    const Stock1035& topval(const Stock1035& s) const;
 };
 
 #endif

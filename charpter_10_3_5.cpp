@@ -121,6 +121,19 @@ void Stock1035::show() const
     cout.precision(prec);
 }
 
+const Stock1035& Stock1035::topval(const Stock1035 & s) const
+{
+    using std::cout;
+    cout << "topval=================================" << std::endl;
+    cout << "s.total_val="<< s.total_val << std::endl;
+    cout << "total_val=" << total_val << std::endl;
+    if (s.total_val > total_val)
+        return s;
+    else
+        return *this;
+}
+
+
 int main1035()
 {
     {
@@ -144,14 +157,37 @@ int main1035()
         stock1 = Stock1035("Nifty Foods", 10, 50.0);    // temp object
         cout << "Revised stock1:\n";
         stock1.show();
-        
-        
-        
         const Stock1035 stock3("Nifty Foods", 10, 50.0);    // temp object
         stock3.show();
 
     }
     std::cout << "Done\n";
     // std::cin.get();
+    return 0;
+}
+
+
+int main1040()
+{
+    {
+        using std::cout;
+        
+        Stock1035 stock1("NanoSmart", 12, 20.0);            // syntax 1
+        stock1.show();
+
+        Stock1035 stock2 = Stock1035("Boffo Objects", 2, 2.0); // syntax 2
+        stock2.show();
+
+        //const Stock1035 stock3("Nifty Foods", 10, 50.0);    // temp object
+        cout << "XXXXXXX" << std::endl;
+        //cout << "XXXXXXX" << stock2.total_val <<std::endl;
+        stock1 = stock1.topval(stock2);
+        cout << "XXXXXXX" << std::endl;
+        stock2.show();
+
+
+
+    }
+
     return 0;
 }
