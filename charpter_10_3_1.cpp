@@ -20,6 +20,14 @@ Demo4::Demo4()
 
 Demo4::~Demo4() { cout << "Bye ~~ Bye ~~" << endl; }
 
+
+class Demo5 {
+	int x_;
+
+public:
+	Demo5(int x) { x_ = x; };
+};
+
 int main1031() {
 
 	// Demo2 demo2 = Demo2{ 10,20 }; // Demo2 demo2 = { 10,20 }; 隐式的调用默认构造函数的时候 不要使用圆括号  要使用 大括号
@@ -47,6 +55,11 @@ int main1031() {
 	//Demo4 demo42;
 	
 	cout << "程序结束" << endl;
+
+
+	Demo5 demo5 = 301;
+
+	//cout << "demo5" << demo5;
 
 	return 0;
 }

@@ -38,17 +38,21 @@ int main1030() {
 	//
 	//Demo2 demo2 = Demo2{ 10,20 };    // OK
 	 //Demo2 demo2{ 10,20 };             // OK
-	 Demo2 demo2 = { 10,20 };             // OK
+	 //Demo2 demo2 = { 10,20 };             // OK
 	//Demo2 demo2 = Demo2(10,20);      // Error “<function-style-cast>”: 无法从“initializer list”转换为“Demo2”
 	//Demo2 demo2(10, 20);             // Error “<function-style-cast>”: 无法从“initializer list”转换为“Demo2”
-	demo2.fuc2();
+	//demo2.fuc2();
 	////
 	//Demo3 demo3;
 	//demo3.init(10,20);
 	//demo3.fuc2();
 
+	//Demo1 demo1;
+	//demo1.fuc1(10,20);
+	//cout << "demo1 x1=" << demo1.x1;
 
-
+	Demo2 demo2 = Demo2{ 10,20 };
+	cout << "demo2 x2=" << demo2.x1;
 
 	return 0;
 }

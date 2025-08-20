@@ -102,7 +102,6 @@ void Stock1035::update(double price)
 void Stock1035::show() const
 
 {
-
     using std::cout;
     using std::ios_base;
     cout << "const  **********************" << std::endl;
@@ -122,9 +121,7 @@ void Stock1035::show() const
     cout.precision(prec);
 }
 
-
-
-int main()
+int main1035()
 {
     {
         using std::cout;
