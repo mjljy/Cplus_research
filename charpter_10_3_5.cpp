@@ -127,6 +127,7 @@ const Stock1035& Stock1035::topval(const Stock1035 & s) const
     cout << "topval=================================" << std::endl;
     cout << "s.total_val="<< s.total_val << std::endl;
     cout << "total_val=" << total_val << std::endl;
+    cout << "total_val=" << this->total_val << std::endl;
     if (s.total_val > total_val)
         return s;
     else
@@ -167,7 +168,7 @@ int main1035()
 }
 
 
-int main1040()
+int main()
 {
     {
         using std::cout;
@@ -181,9 +182,10 @@ int main1040()
         //const Stock1035 stock3("Nifty Foods", 10, 50.0);    // temp object
         cout << "XXXXXXX" << std::endl;
         //cout << "XXXXXXX" << stock2.total_val <<std::endl;
-        stock1 = stock1.topval(stock2);
+        Stock1035 stock3;
+        stock3 = stock1.topval(stock2);
         cout << "XXXXXXX" << std::endl;
-        stock2.show();
+        stock3.show();
 
 
 
